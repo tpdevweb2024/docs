@@ -12,6 +12,15 @@ Une fois l'installation complète, vous aurez à la fois Node.js et npm install�
 
 Maintenant, vous pouvez vérifier l'installation en utilisant les commandes `node -v` et `npm -v` dans votre terminal pour afficher les versions installées respectivement.
 
+## Pourquoi utiliser NPM ?
+
+NPM (Node Package Manager) est un outil puissant pour les développeurs pour plusieurs raisons :
+
+* **La multitude de dépendances** : NPM permet d'installer, mettre à jour et supprimer facilement les packages et leurs dépendances.
+* **Partage de code** : Il facilite le partage de code avec d'autres développeurs via le registre public npm.
+* **Scripts automatisés** : Vous pouvez utiliser NPM pour exécuter des scripts automatisés pour des tâches courantes, telles que le développement, les tests et le déploiement.
+* **Écosystème riche** : Avec des millions de packages disponibles, il offre un écosystème riche pour accélérer le développement d'applications.
+
 ## Utilisation de npm
 
 ### Initialiser un projet
