@@ -111,6 +111,70 @@ SELECT categorie, COUNT(*) FROM produits GROUP BY categorie HAVING COUNT(*) > 10
 Avec cette requête, vous verrez uniquement les catégories qui ont plus de 10 produits, montrant comment `HAVING` peut être utilisé pour filtrer les groupes après qu'ils aient été agrégés par \`GROUP BY
 {% endhint %}
 
+## **Les contraintes de clés étrangères**
+
+Les contraintes de clés étrangères (foreign key constraints) sont utilisées pour assurer l'intégrité référentielle des données entre deux tables.&#x20;
+
+Elles garantissent que les valeurs dans une colonne ou un ensemble de colonnes d'une table correspondent aux valeurs d'une colonne clé primaire dans une autre table.
+
+#### Exemple de création de contrainte de clé étrangère :
+
+```sql
+CREATE TABLE commandes (
+    id_commande INT PRIMARY KEY,
+    id_client INT,
+    date_commande DATE,
+    FOREIGN KEY (id_client) REFERENCES clients(id_client)
+);
+```
+
+_Dans cet exemple, `id_client` dans la table `commandes` doit correspondre à une valeur existante de `id_client` dans la table `clients`._
+
+### Pourquoi utilise-t-on les clés étrangères (FK) ?
+
+Les principales raisons d'utiliser des clés étrangères sont :
+
+1. **Intégrité des données** : Empêcher l'insertion de données incohérentes ou orphelines.
+2. **Maintenabilité** : Simplifier la gestion et la suppression de données liées.
+3. **Normalisation** : Aider à organiser les données de manière structurée et éviter les redondances.
+
+{% hint style="info" %}
+En résumé, les clés étrangères sont essentielles pour maintenir la cohérence et la qualité des données dans une base de données relationnelle.
+{% endhint %}
+
+### **Les actions en cascade**
+
+Le système de cascade dans une base de données relationnelle permet de définir des actions automatiques en cas de mise à jour ou de suppression d'une ligne parent dans une table.&#x20;
+
+Les deux types de cascades couramment utilisés sont :
+
+* **ON DELETE CASCADE** : Supprime automatiquement les enregistrements enfant lorsque l'enregistrement parent est supprimé.
+* **ON UPDATE CASCADE** : Met à jour automatiquement les valeurs correspondantes dans les enregistrements enfant lorsqu'une valeur dans l'enregistrement parent est modifiée.
+
+#### Exemple d'utilisation des actions en cascade
+
+Supposons que vous avez deux tables, `orders` et `order_items`. La table `orders` contient des informations sur les commandes, tandis que la table `order_items` contient les articles correspondants à chaque commande.
+
+{% code overflow="wrap" %}
+```sql
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    order_date DATE
+);
+
+CREATE TABLE order_items (
+    item_id INT PRIMARY KEY,
+    order_id INT,
+    item_name VARCHAR(50),
+    FOREIGN KEY (order_id) REFERENCES orders(order_id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+```
+{% endcode %}
+
+_Dans cet exemple, si vous supprimez un enregistrement dans la table `orders`, tous les articles correspondants dans la table `order_items` seront également supprimés automatiquement grâce à `ON DELETE CASCADE`. De même, toute mise à jour du `order_id` dans `orders` sera automatiquement répercutée dans `order_items` grâce à `ON UPDATE CASCADE`._
+
+***
+
 ## **Utilisation avancée des requêtes**
 
 ### **Les fonctions d'agrégation**
