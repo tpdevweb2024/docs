@@ -90,6 +90,12 @@
   * [Les requêtes avec PDO](backend/php-et-les-bases-de-donnees/les-requetes-avec-pdo.md)
   * [Fonctionnalités avancées](backend/php-et-les-bases-de-donnees/fonctionnalites-avancees.md)
   * [Bonnes pratiques et sécurité](backend/php-et-les-bases-de-donnees/bonnes-pratiques-et-securite.md)
+* [La POO avec PHP](backend/la-poo-avec-php/README.md)
+  * [Pourquoi utiliser la POO ?](backend/la-poo-avec-php/pourquoi-utiliser-la-poo.md)
+  * [Classes et Objets](backend/la-poo-avec-php/classes-et-objets.md)
+  * [Propriétés et méthodes](backend/la-poo-avec-php/proprietes-et-methodes.md)
+  * [Les concepts avancés](backend/la-poo-avec-php/les-concepts-avances.md)
+  * [Les espaces de nom](backend/la-poo-avec-php/les-espaces-de-nom.md)
 
 ## 🔗 Les bases de données
 
