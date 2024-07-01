@@ -96,6 +96,9 @@
   * [Propriétés et méthodes](backend/la-poo-avec-php/proprietes-et-methodes.md)
   * [Les concepts avancés](backend/la-poo-avec-php/les-concepts-avances.md)
   * [Les espaces de nom](backend/la-poo-avec-php/les-espaces-de-nom.md)
+* [Composer et les packages](backend/composer-et-les-packages.md)
+* [L'architecture MVC](backend/larchitecture-mvc/README.md)
+  * [Slim Framework](backend/larchitecture-mvc/slim-framework.md)
 
 ## 🔗 Les bases de données
 

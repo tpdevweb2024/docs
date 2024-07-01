@@ -199,7 +199,7 @@ Tailwind CSS fournit des utilitaires pour gérer la typographie, tels que la tai
 
 #### **Poids de police**
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-weight">https://tailwindcss.com/docs/font-weight</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-weight">https://tailwindcss.com/docs/font-weight</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `font-x` sert à définir la graisse de votre police de texte
