@@ -62,6 +62,7 @@
 * [La programmation Orientée Objet (POO)](javascript/la-programmation-orientee-objet-poo.md)
 * [Évènements et interactions](javascript/evenements-et-interactions.md)
 * [NPM et les librairies](javascript/npm-et-les-librairies.md)
+* [ViteJS](javascript/vitejs.md)
 
 ## 🤖 L'automatisation
 
