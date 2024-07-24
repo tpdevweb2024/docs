@@ -61,6 +61,7 @@
   * [Création d'éléments](javascript/manipulation-du-dom/creation-delements.md)
 * [La programmation Orientée Objet (POO)](javascript/la-programmation-orientee-objet-poo.md)
 * [Évènements et interactions](javascript/evenements-et-interactions.md)
+* [Les promesses et l'API fetch](javascript/les-promesses-et-lapi-fetch.md)
 * [NPM et les librairies](javascript/npm-et-les-librairies.md)
 * [ViteJS](javascript/vitejs.md)
 * [React JS](javascript/react-js/README.md)
