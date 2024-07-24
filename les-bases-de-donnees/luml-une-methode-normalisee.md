@@ -71,7 +71,7 @@ UML est un langage graphique de modélisation des systèmes d'information qui ut
 Ce guide sert de point de départ pour comprendre les éléments fondamentaux d'UML. Il est crucial d'approfondir chaque type de diagramme et de pratiquer pour maîtriser pleinement UML.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Source : Visual Paradigm</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>Source : Visual Paradigm</p></figcaption></figure>
 
 L'UML est un outil puissant dans le domaine de l'ingénierie logicielle, permettant aux équipes de mieux visualiser, comprendre, et communiquer les aspects complexes d'un système.&#x20;
 

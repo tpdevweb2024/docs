@@ -83,7 +83,7 @@ Pour débuter avec Sass dans votre projet, suivez ces étapes pour configurer vo
 En suivant ces étapes, vous aurez un environnement de développement Sass prêt à l'emploi pour votre projet. Vous pouvez maintenant continuer à écrire votre CSS en utilisant toutes les fonctionnalités puissantes que Sass a à offrir.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Intégrer Sass dans un nouveau projet
 

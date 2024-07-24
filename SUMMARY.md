@@ -111,6 +111,31 @@
 * [L'architecture MVC](backend/larchitecture-mvc/README.md)
   * [Slim Framework](backend/larchitecture-mvc/slim-framework.md)
 
+## 🧊 Laravel
+
+* [Avant de démarrer](laravel/avant-de-demarrer.md)
+* [Installation de Laravel](laravel/installation-de-laravel.md)
+* [Structure du projet](laravel/structure-du-projet.md)
+* [C'est quoi le MVC ?](laravel/cest-quoi-le-mvc.md)
+* [Premiers pas](laravel/premiers-pas/README.md)
+  * [Le routing](laravel/premiers-pas/le-routing.md)
+  * [Les vues (views)](laravel/premiers-pas/les-vues-views.md)
+  * [Les assets](laravel/premiers-pas/les-assets.md)
+  * [Les controllers](laravel/premiers-pas/les-controllers.md)
+  * [Les models](laravel/premiers-pas/les-models.md)
+* [La gestion de la BDD](laravel/la-gestion-de-la-bdd/README.md)
+  * [C'est quoi Eloquent ORM ?](laravel/la-gestion-de-la-bdd/cest-quoi-eloquent-orm.md)
+  * [Les migrations](laravel/la-gestion-de-la-bdd/les-migrations.md)
+  * [Les factories](laravel/la-gestion-de-la-bdd/les-factories.md)
+  * [Les seeders](laravel/la-gestion-de-la-bdd/les-seeders.md)
+* [Manipulation des données](laravel/manipulation-des-donnees/README.md)
+  * [Accès aux données](laravel/manipulation-des-donnees/acces-aux-donnees.md)
+  * [La méthode index()](laravel/manipulation-des-donnees/la-methode-index.md)
+  * [La méthode create()](laravel/manipulation-des-donnees/la-methode-create.md)
+  * [La méthode store()](laravel/manipulation-des-donnees/la-methode-store.md)
+  * [La méthode show()](laravel/manipulation-des-donnees/la-methode-show.md)
+  * [Appel aux contraintes](laravel/manipulation-des-donnees/appel-aux-contraintes.md)
+
 ## 🔗 Les bases de données
 
 * [Le fonctionnement des BDD](les-bases-de-donnees/le-fonctionnement-des-bdd.md)

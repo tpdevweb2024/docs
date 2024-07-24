@@ -8,7 +8,7 @@ Le modèle MVC (Model-View-Controller) est un modèle architectural très couram
 * **Vue (View):** La vue est responsable de la représentation visuelle des données.
 * **Contrôleur (Controller):** Le contrôleur gère les entrées utilisateur, c'est l'intermédiaire entre le modèle et la vue.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 Le modèle MVC est apprécié par les entreprises pour plusieurs raisons :
 

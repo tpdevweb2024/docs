@@ -94,7 +94,7 @@ Bootstrap utilise un système de grille flexible qui permet de créer des mises 
 * `col-[taille]-[nombre]`: contrôle la largeur de la colonne sur différents appareils (`taille` = `sm`, `md`, `lg`, `xl`, `xxl`; `nombre` = `1` à `12`).
 * `offset-[taille]-[nombre]`: ajoute un espace à gauche de la colonne, décalant ainsi la position de la colonne.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Mise en place d'une mise en page responsive avec la grille Bootstrap
 
@@ -151,7 +151,7 @@ Bootstrap permet également d'utiliser des valeurs négatives pour les marges, e
 
 * `mt-n1` : marge supérieure négative de 1 unité
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Alignement du texte
 

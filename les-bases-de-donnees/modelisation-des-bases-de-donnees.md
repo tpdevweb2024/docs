@@ -22,7 +22,7 @@ C'est une représentation à haut niveau qui ne se préoccupe pas des détails d
 
 ### Exemple de MCD
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Entités et Associations
 
@@ -95,7 +95,7 @@ Ce processus itératif assure que la structure de la base de données est bien c
 
 ### Exemple de MPD
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Table `owners`
 

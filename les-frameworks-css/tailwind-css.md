@@ -191,7 +191,7 @@ Tailwind CSS fournit des utilitaires pour gérer la typographie, tels que la tai
 
 #### **Taille de police**
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-size">https://tailwindcss.com/docs/font-size</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-size">https://tailwindcss.com/docs/font-size</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `text-x` permet de modifier la taille d'un texte
@@ -199,7 +199,7 @@ Tailwind CSS fournit des utilitaires pour gérer la typographie, tels que la tai
 
 #### **Poids de police**
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-weight">https://tailwindcss.com/docs/font-weight</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-weight">https://tailwindcss.com/docs/font-weight</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `font-x` sert à définir la graisse de votre police de texte
@@ -207,7 +207,7 @@ Tailwind CSS fournit des utilitaires pour gérer la typographie, tels que la tai
 
 #### **Style de police**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-style">https://tailwindcss.com/docs/font-style</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-style">https://tailwindcss.com/docs/font-style</a></p></figcaption></figure>
 
 {% hint style="info" %}
 Ces classes permettent d'ajouter ou retirer le style italique à un texte
@@ -215,7 +215,7 @@ Ces classes permettent d'ajouter ou retirer le style italique à un texte
 
 #### **Transformation de texte**
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/text-transform">https://tailwindcss.com/docs/text-transform</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/text-transform">https://tailwindcss.com/docs/text-transform</a></p></figcaption></figure>
 
 {% hint style="info" %}
 Ces classes définissent la casse des élements
@@ -223,7 +223,7 @@ Ces classes définissent la casse des élements
 
 #### **Espacement des lignes**
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/line-height">https://tailwindcss.com/docs/line-height</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/line-height">https://tailwindcss.com/docs/line-height</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `leading-x` définit l'espacement de ligne
@@ -235,7 +235,7 @@ Ces classes définissent la casse des élements
 
 Tailwind CSS fournit une palette de couleurs par défaut, ainsi que des utilitaires pour définir les couleurs de texte et d'arrière-plan.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt="" width="331"><figcaption><p><a href="https://tailwindcss.com/docs/customizing-colors">https://tailwindcss.com/docs/customizing-colors</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="331"><figcaption><p><a href="https://tailwindcss.com/docs/customizing-colors">https://tailwindcss.com/docs/customizing-colors</a></p></figcaption></figure>
 
 #### **Couleurs de texte et d'arrière-plan**
 
@@ -260,7 +260,7 @@ Tailwind CSS propose une variété d'utilitaires pour travailler avec les bordur
 
 #### **Types de bordures**
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/border-width">https://tailwindcss.com/docs/border-width</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/border-width">https://tailwindcss.com/docs/border-width</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `border-*`: Définit la largeur de la bordure.
@@ -270,7 +270,7 @@ Exemples : `border`, `border-2`, `border-4`, `border-8`.
 
 #### **Couleurs de bordures**
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/border-color">https://tailwindcss.com/docs/border-color</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/border-color">https://tailwindcss.com/docs/border-color</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `border-color-*`: Définit la couleur de la bordure.
@@ -280,7 +280,7 @@ Exemples : `border-black`, `border-white`, `border-gray-500`, `border-red-500`.
 
 #### **Radius de bordures**
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/border-radius">https://tailwindcss.com/docs/border-radius</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/border-radius">https://tailwindcss.com/docs/border-radius</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `rounded-*`: Ajuste le rayon de la bordure (bordure arrondie).

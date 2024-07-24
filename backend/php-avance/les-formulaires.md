@@ -19,7 +19,7 @@ Rappellons par cette occasion que ce script fonction, mais qu'il est dangereux e
 http://localhost:8000/index.php?prenom=<script>alert("hacking ok !")</script>
 ```
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Voyez par vous même le résultat, **vous obtenez un superbe script JS qui va vous afficher Hacking Ok !**, c'est pas très sécurisé n'est-ce pas ?
 
@@ -88,7 +88,7 @@ Testions l'envoi d'un formulaire PHP via $\_POST, puis analysons ce tableau, ain
 </form>
 ```
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 > Au même titre que la méthode GET, il vous faudra être très attentifs aux différentes failles se présentant à vous. Ainsi, l'utilisation de la **fonction htmlspecialchars() est vivement conseillée**.
 
@@ -262,7 +262,7 @@ Concernant la partie html, voici le code à écrire :
 
 Dans le traitement PHP, nous allons utiliser **la variable superglobale $\_FILES**, alors regardons ensemble ce que donne un var\_dump d'un fichier soumis :&#x20;
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Encore une fois, PHP a transformé dans un format tableau toutes les infos correspondant au fichier envoyé, parmi les infos intéressantes :
 

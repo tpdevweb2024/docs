@@ -2,7 +2,7 @@
 
 Les bases de données sont basées sur une architecture 3-Tiers
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 Les opérations pouvant être exécutées sont les suivantes :
 
