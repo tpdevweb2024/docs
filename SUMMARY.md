@@ -135,7 +135,10 @@
   * [La méthode create()](laravel/manipulation-des-donnees/la-methode-create.md)
   * [La méthode store()](laravel/manipulation-des-donnees/la-methode-store.md)
   * [La méthode show()](laravel/manipulation-des-donnees/la-methode-show.md)
-  * [Appel aux contraintes](laravel/manipulation-des-donnees/appel-aux-contraintes.md)
+* [Les contraintes](laravel/les-contraintes.md)
+* [L'upload de fichier](laravel/lupload-de-fichier.md)
+* [Envoyer des emails](laravel/envoyer-des-emails.md)
+* [Les composants Laravel](laravel/les-composants-laravel.md)
 
 ## 🔗 Les bases de données
 
