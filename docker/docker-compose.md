@@ -1,10 +1,10 @@
 # Docker Compose
 
-### Docker Compose
+### Utilisation de Docker Compose
 
 Docker Compose est un outil permettant de définir et de gérer des applications multi-conteneurs Docker. Avec Docker Compose, vous pouvez utiliser un simple fichier YAML pour spécifier les services, les réseaux et les volumes nécessaires à votre application. Il simplifie la gestion des dépendances et le processus de déploiement en regroupant les configurations en un seul fichier lisible.
 
-#### Commandes de base de Docker Compose détaillées
+### Commandes de base de Docker Compose détaillées
 
 * `docker-compose up` : Lance et exécute les conteneurs définis dans le fichier `docker-compose.yml`.
 * `docker-compose down` : Arrête et supprime les conteneurs, les réseaux, les volumes et les images créés par `up`.
@@ -16,7 +16,35 @@ Docker Compose est un outil permettant de définir et de gérer des applications
 
 
 
-#### Exemple d'un fichier docker-compose.yml
+### Présentation des Services, Noms et Clés Disponibles
+
+Dans un fichier `docker-compose.yml`, les principaux éléments de configuration incluent les services, les réseaux, les volumes, et d'autres paramètres spécifiques pour chaque conteneur.
+
+**Services**
+
+Chaque service représente un conteneur ou un ensemble de conteneurs qui fonctionnent ensemble pour constituer une application. Les clés principales sous un service sont :
+
+* `image` : Spécifie l'image Docker à utiliser pour le conteneur.
+* `build` : Chemin vers un Dockerfile pour construire l'image.
+* `ports` : Expose des ports entre l'hôte et le conteneur.
+* `volumes` : Monte des répertoires ou des fichiers entre l'hôte et le conteneur.
+* `environment` : Défini les variables d'environnement pour le conteneur.
+* `depends_on` : Spécifie les dépendances entre les services, assurant leur démarrage dans le bon ordre.
+* `networks` : Configure les réseaux Docker pour le service.
+* `command` : Remplace la commande par défaut exécutée au démarrage du conteneur.
+
+**Exemple d'autres clés utilisables :**
+
+* `restart` : Définit la stratégie de redémarrage (`no`, `always`, `on-failure`, `unless-stopped`).
+* `healthcheck` : Décrit comment Docker doit vérifier la santé du conteneur.
+* `labels` : Ajoute des métadonnées au conteneur.
+* `extra_hosts` : Ajoute des entrées personnalisées au fichier `/etc/hosts` du conteneur.
+
+Ces éléments permettent de configurer et de orchestrer des environnements complexes de plusieurs conteneurs, simplifiant ainsi le déploiement et la gestion des applications conteneurisées.
+
+
+
+### Exemple d'un fichier docker-compose.yml
 
 ```yaml
 version: '3.8' # optionnel
@@ -58,7 +86,7 @@ En complément de Docker Compose, plusieurs outils peuvent vous aider à gérer 
 * **Kubernetes** : Une autre option d'orchestration de conteneurs qui propose des fonctionnalités avancées telles que l'autoscaling, le déploiement canari et les migrations de bases de données.
 * **Docker Compose Override** : Utilisez des fichiers `docker-compose.override.yml` pour personnaliser ou étendre les configurations sans modifier le fichier principal. Cela est particulièrement utile pour les environnements de développement et de test.
 
-#### Dépannage
+### Dépannage
 
 Lorsque vous travaillez avec Docker Compose, il est possible que des problèmes surviennent. Voici quelques conseils pour le dépannage :
 
@@ -67,7 +95,7 @@ Lorsque vous travaillez avec Docker Compose, il est possible que des problèmes 
 * **Volumes** : Si des problèmes de stockage persistent, essayez de supprimer et de recréer les volumes avec `docker-compose down -v` suivi de `docker-compose up`.
 * **Conflits de Ports** : Si un service ne peut pas démarrer en raison d'un conflit de port, vérifiez et modifiez les ports mappés dans le fichier `docker-compose.yml`.
 
-#### Ressources Utiles
+### Ressources Utiles
 
 Pour en savoir plus et approfondir vos connaissances sur Docker Compose, consultez les ressources suivantes :
 
