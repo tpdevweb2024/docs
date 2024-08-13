@@ -22,13 +22,15 @@ Enfin, la méthode Agile encourage l'amélioration continue du processus de dév
 
 En résumé, la méthode Agile est une approche de gestion de projet qui se concentre sur la flexibilité, la collaboration et la satisfaction du client. Elle se caractérise par une approche itérative et incrémentale du développement, une collaboration étroite entre les membres de l'équipe et les parties prenantes, et une amélioration continue du processus de développement.
 
+
+
 Les outils sympa a connaitre :
 
 [Miro | L’espace de travail visuel pour l’innovation](https://miro.com/fr/)
 
 [La plateforme collaborative tout-en-un des entreprises | Klaxoon](https://klaxoon.com/fr)
 
-miror et klaxon c’est des plateforme collaborative por schémas kanban .. afin de facileité le travail en equipe
+Mirror et Klaxon sont des plateformes collaboratives pour les schémas Kanban, afin de faciliter le travail en équipe.
 
 [Parabol | Free Agile Meeting Tool for Remote Teams](https://www.parabol.co/)
 
