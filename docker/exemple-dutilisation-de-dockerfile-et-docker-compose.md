@@ -2,7 +2,9 @@
 
 ## Chat Application avec ViteJS et Docker
 
-
+{% embed url="https://github.com/lolopook/ia-docker-compose" %}
+Exemple d'application tchat avec ia simple
+{% endembed %}
 
 Cette application est construite avec ViteJS et JavaScript Vanilla. Elle utilise un conteneur Docker pour exécuter une interface de chat qui communique avec une IA sur Ollama.
 
