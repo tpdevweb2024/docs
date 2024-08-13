@@ -12,7 +12,52 @@ docker run hello-world
 
 Cette commande télécharge une image de test et exécute un conteneur à partir de celle-ci, affichant un message de bienvenue.
 
-#### Créer une image Docker
+
+
+### Commandes de base de docker :
+
+***
+
+Voici quelques commandes de base pour utiliser Docker :
+
+* **`docker run`** : permet de créer et de démarrer un conteneur à partir d'une image Docker.
+* **`docker ps`** : permet d'afficher la liste des conteneurs en cours d'exécution.
+* **`docker stop`** : permet d'arrêter un conteneur en cours d'exécution.
+* **`docker rm`** : permet de supprimer un conteneur arrêté.
+* **`docker images`** : permet d'afficher la liste des images Docker disponibles sur le système.
+* **`docker pull`** : permet de télécharger une image Docker à partir d'un registre Docker.
+* **`docker push`** : permet de publier une image Docker sur un registre Docker.
+
+
+
+### Le DockerHub
+
+***
+
+DockerHub est un registre Docker public qui permet de stocker, partager et distribuer des images Docker. Les utilisateurs peuvent rechercher et télécharger des images Docker à partir de DockerHub, ainsi que publier leurs propres images Docker pour les partager avec d'autres utilisateurs.
+
+
+
+### Le Dockerfile
+
+***
+
+* Un Dockerfile est un fichier texte qui contient les instructions nécessaires pour construire une image Docker. Une image Docker est un modèle utilisé pour créer des conteneurs Docker.
+* Le Dockerfile définit les différentes étapes nécessaires pour construire l'image Docker. Chaque étape est définie par une instruction dans le fichier. Les instructions les plus courantes sont **`FROM`**, **`RUN`**, **`COPY`**, **`WORKDIR`**, **`EXPOSE`** et **`CMD`**.
+*   Voici une brève description de chaque instruction :
+
+    * **`FROM`** : spécifie l'image de base à utiliser pour construire l'image Docker.
+    * **`RUN`** : exécute une commande dans le conteneur et crée une nouvelle couche dans l'image Docker.
+    * **`COPY`** : copie des fichiers ou des répertoires du système hôte vers le conteneur.
+    * **`WORKDIR`** : définit le répertoire de travail dans le conteneur.
+    * **`EXPOSE`** : spécifie les ports que le conteneur écoutera.
+    * **`CMD`** : définit la commande à exécuter lorsque le conteneur démarre.
+
+    Le Dockerfile est utilisé par la commande **`docker build`** pour construire l'image Docker. La commande **`docker build`** lit le Dockerfile et exécute chaque instruction pour créer l'image Docker.
+
+
+
+#### Créer une image Docker avec Dockerfile&#x20;
 
 Pour créer votre propre image Docker, vous devez définir un `Dockerfile`. Un Dockerfile est un script contenant les instructions nécessaires pour construire l'image. Voici un exemple basique de Dockerfile:
 
@@ -50,49 +95,6 @@ En suivant ces étapes, vous pouvez commencer à utiliser Docker pour faciliter 
 
 
 
-### Commandes de base :
-
-***
-
-Voici quelques commandes de base pour utiliser Docker :
-
-* **`docker run`** : permet de créer et de démarrer un conteneur à partir d'une image Docker.
-* **`docker ps`** : permet d'afficher la liste des conteneurs en cours d'exécution.
-* **`docker stop`** : permet d'arrêter un conteneur en cours d'exécution.
-* **`docker rm`** : permet de supprimer un conteneur arrêté.
-* **`docker images`** : permet d'afficher la liste des images Docker disponibles sur le système.
-* **`docker pull`** : permet de télécharger une image Docker à partir d'un registre Docker.
-* **`docker push`** : permet de publier une image Docker sur un registre Docker.
-
-
-
-### DockerHub
-
-***
-
-DockerHub est un registre Docker public qui permet de stocker, partager et distribuer des images Docker. Les utilisateurs peuvent rechercher et télécharger des images Docker à partir de DockerHub, ainsi que publier leurs propres images Docker pour les partager avec d'autres utilisateurs.
-
-
-
-### Dockerfile
-
-***
-
-* Un Dockerfile est un fichier texte qui contient les instructions nécessaires pour construire une image Docker. Une image Docker est un modèle utilisé pour créer des conteneurs Docker.
-* Le Dockerfile définit les différentes étapes nécessaires pour construire l'image Docker. Chaque étape est définie par une instruction dans le fichier. Les instructions les plus courantes sont **`FROM`**, **`RUN`**, **`COPY`**, **`WORKDIR`**, **`EXPOSE`** et **`CMD`**.
-*   Voici une brève description de chaque instruction :
-
-    * **`FROM`** : spécifie l'image de base à utiliser pour construire l'image Docker.
-    * **`RUN`** : exécute une commande dans le conteneur et crée une nouvelle couche dans l'image Docker.
-    * **`COPY`** : copie des fichiers ou des répertoires du système hôte vers le conteneur.
-    * **`WORKDIR`** : définit le répertoire de travail dans le conteneur.
-    * **`EXPOSE`** : spécifie les ports que le conteneur écoutera.
-    * **`CMD`** : définit la commande à exécuter lorsque le conteneur démarre.
-
-    Le Dockerfile est utilisé par la commande **`docker build`** pour construire l'image Docker. La commande **`docker build`** lit le Dockerfile et exécute chaque instruction pour créer l'image Docker.
-
-
-
 ### Commande de gestion des images et des conteneurs
 
 ***
@@ -112,7 +114,7 @@ DockerHub est un registre Docker public qui permet de stocker, partager et distr
 
 
 
-### Exercice de compréhension Docker et à créer un conteneur avec Nginx servant un fichier `index.html` et un fichier `style.css`.
+### Exemple de compréhension Docker avec un conteneur avec Nginx servant un fichier `index.html` et un fichier `style.css`.
 
 
 
