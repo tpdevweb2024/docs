@@ -20,6 +20,8 @@ Cette application est construite avec ViteJS et JavaScript Vanilla. Elle utilise
 
 #### 1. Créer une image Docker pour l'application ViteJS
 
+Cloner le dépôt ou créer une application. Suivez les étapes suivantes si vous avez cloné, sinon rendez-vous à l'étape 2.
+
 1.  **Installer les dépendances et lancer le serveur de développement :**
 
     Utilisez les commandes suivantes pour installer les dépendances et lancer le serveur de développement :&#x20;
