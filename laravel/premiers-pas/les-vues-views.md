@@ -158,4 +158,4 @@ Mais d'abord créons un fichier **header**.blade.php, se situant dans le dossier
 </html>
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>

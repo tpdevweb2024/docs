@@ -17,7 +17,7 @@ description: >-
 
 Tout d'abord, voyons en un schéma à qui ressemble une application MVC :&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 On peut ainsi remarquer que à chaque page chargée sur notre application, nous aurons un cheminement identique reprenant les étapes ci-dessous :&#x20;
 

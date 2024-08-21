@@ -127,7 +127,7 @@ Allons maintenant voir côté vue :&#x20;
 
 ```
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Génial !!! nous venons de faire transiter des données entre le cœur de notre appli et la vue finale du client (internaute). :thumbsup::thumbsup::thumbsup:

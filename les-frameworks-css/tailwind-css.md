@@ -191,7 +191,7 @@ Tailwind CSS fournit des utilitaires pour gérer la typographie, tels que la tai
 
 #### **Taille de police**
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-size">https://tailwindcss.com/docs/font-size</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-size">https://tailwindcss.com/docs/font-size</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `text-x` permet de modifier la taille d'un texte
@@ -199,7 +199,7 @@ Tailwind CSS fournit des utilitaires pour gérer la typographie, tels que la tai
 
 #### **Poids de police**
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-weight">https://tailwindcss.com/docs/font-weight</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-weight">https://tailwindcss.com/docs/font-weight</a></p></figcaption></figure>
 
 {% hint style="info" %}
 `font-x` sert à définir la graisse de votre police de texte
@@ -207,7 +207,7 @@ Tailwind CSS fournit des utilitaires pour gérer la typographie, tels que la tai
 
 #### **Style de police**
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-style">https://tailwindcss.com/docs/font-style</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/font-style">https://tailwindcss.com/docs/font-style</a></p></figcaption></figure>
 
 {% hint style="info" %}
 Ces classes permettent d'ajouter ou retirer le style italique à un texte
@@ -215,7 +215,7 @@ Ces classes permettent d'ajouter ou retirer le style italique à un texte
 
 #### **Transformation de texte**
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/text-transform">https://tailwindcss.com/docs/text-transform</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Source : <a href="https://tailwindcss.com/docs/text-transform">https://tailwindcss.com/docs/text-transform</a></p></figcaption></figure>
 
 {% hint style="info" %}
 Ces classes définissent la casse des élements
