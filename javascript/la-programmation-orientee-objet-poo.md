@@ -14,12 +14,12 @@ Elle est essentielle pour gérer des projets complexes et favorise la maintenanc
 
 ```javascript
 class Voiture {
-  constructor(marque, modèle) {
+  constructor(marque, modele) {
     this.marque = marque;
-    this.modèle = modèle;
+    this.modele = modele;
   }
   démarrer() {
-    console.log(`${this.marque} ${this.modèle} démarre.`);
+    console.log(`${this.marque} ${this.modele} démarre.`);
   }
 }
 
@@ -113,26 +113,26 @@ class Moto extends Véhicule {
 Le polymorphisme permet d'utiliser des objets de différentes classes de manière interchangeable en utilisant une interface commune. Par exemple, si vous avez une méthode `afficherDetails` qui fonctionne sur des objets de types différents, vous pouvez appeler cette méthode sur n'importe quel objet qui implémente cette interface, indépendamment de sa classe spécifique.
 
 ```javascript
-class Véhicule {
+class Vehicule {
   afficherDetails() {
     console.log("Détails du véhicule");
   }
 }
 
-class Voiture extends Véhicule {
+class Voiture extends Vehicule {
   afficherDetails() {
     console.log("Détails de la voiture");
   }
 }
 
-class Moto extends Véhicule {
+class Moto extends Vehicule {
   afficherDetails() {
     console.log("Détails de la moto");
   }
 }
 
-let véhicules = [new Voiture(), new Moto()];
-véhicules.forEach(v => v.afficherDetails());
+let vehicules = [new Voiture(), new Moto()];
+vehicules.forEach(v => v.afficherDetails());
 ```
 
 _Dans cet exemple, la méthode `afficherDetails` peut être appelée sur des instances de `Voiture` et `Moto` grâce au polymorphisme._
